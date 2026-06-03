@@ -1,7 +1,7 @@
 {
     "configurations": [
         {
-            "name": "Win32",
+            "name": "Keil-8051",
             "includePath": [
                 "${workspaceFolder}/**",
                 "C:/Keil_v5/C51/INC/**"
@@ -10,12 +10,16 @@
                 "_DEBUG",
                 "UNICODE",
                 "_UNICODE",
-                "__C51__"
+                "__C51__",
+                "sbit=char",
+                "sfr=char",
+                "code=const",
+                "interrupt="
             ],
-            "compilerPath": "C:/Keil_v5/UV4/UV4.exe",
-            "cStandard": "c11",
-            "cppStandard": "c++17",
-            "intelliSenseMode": "windows-msvc-x64"
+            "compilerPath": "",
+            "intelliSenseMode": "windows-gcc-x86",
+            "cStandard": "c99",
+            "cppStandard": "c++11"
         }
     ],
     "version": 4

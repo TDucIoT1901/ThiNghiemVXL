@@ -19,8 +19,6 @@ sbit Trans1 = P1^0; //Led0 đơn vị
 sbit Trans2 = P1^1; //Led1 chục
 sbit Trans3 = P1^2; //Led2 trăm (để luôn tắt)
 sbit Trans4 = P1^3; //Led3 nghìn (để luôn tắt)
-int Trans3 =0; // Luôn tắt LED trăm
-int Trans4 =0; // Luôn tắt LED nghìn
 // Tao hàm delay
 void Delay(unsigned int time)
 {
@@ -36,6 +34,8 @@ int main()
         int chuc = giatri/10;
         int donvi = giatri%10;
         int solanquet=0;
+        Trans3 =0; 
+        Trans4 =0;
         while (solanquet<50)
         {// Hiển thị số đơn vị
         P0 = maled[donvi];

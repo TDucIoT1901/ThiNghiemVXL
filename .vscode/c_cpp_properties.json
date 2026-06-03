@@ -12,10 +12,10 @@
                 "_UNICODE",
                 "__C51__"
             ],
-            "compilerPath": "", 
-            "intelliSenseMode": "windows-gcc-x86",
+            "compilerPath": "C:/Keil_v5/UV4/UV4.exe",
             "cStandard": "c11",
-            "cppStandard": "c++17"
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-msvc-x64"
         }
     ],
     "version": 4
